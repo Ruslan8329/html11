@@ -1,0 +1,151 @@
+body {
+  margin: 0 auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #070708;
+}
+
+.nav-list {
+  display: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+@media (min-width: 1440px) {
+  .nav-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+.nav-item {
+  list-style-type: none;
+  color: white;
+  margin: 10px;
+}
+
+.contact-btn {
+  padding: 14px 20px;
+  border-radius: 8px;
+  display: none;
+}
+@media (min-width: 1440px) {
+  .contact-btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+.header-navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 30px;
+}
+
+@media (min-width: 1440px) {
+  .burger-menu {
+    display: none;
+  }
+}
+
+.heading-text {
+  color: white;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.heading-title {
+  color: white;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+@media (max-width: 1440px) {
+  .heading-title {
+    font-size: 40px;
+  }
+}
+
+.work-button {
+  background-color: #4a2ced;
+  padding: 12px 40px;
+  border-radius: 100px;
+}
+.work-button::after {
+  content: url(/image/row\ icon.png);
+}
+
+.lets-text {
+  color: white;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+@media (max-width: 1440px) {
+  .lets-text {
+    font-size: 28px;
+  }
+}
+
+.work-together {
+  color: white;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+@media (max-width: 1440px) {
+  .work-together {
+    font-size: 28px;
+  }
+}
+
+.work-lets {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.sub-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+@media (max-width: 1440px) {
+  .sub-container {
+    display: block;
+  }
+}
+
+.heading {
+  margin-left: 30px;
+}
+
+.work {
+  margin-right: 30px;
+}
+
+@media (min-width: 1440px) {
+  .underline-section {
+    background-image: url(/image/underline\ text\ long.png);
+  }
+}
+
+@media (max-width: 1440px) {
+  .big-img {
+    background-image: url(/image/small\ img.png);
+  }
+}

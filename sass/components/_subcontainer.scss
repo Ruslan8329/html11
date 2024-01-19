@@ -1,0 +1,74 @@
+.heading-text {
+  color: white;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.heading-title {
+  color: white;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+
+  @media (max-width: 1440px) {
+    font-size: 40px;
+  }
+}
+
+.work-button {
+  background-color: #4a2ced;
+  padding: 12px 40px;
+  border-radius: 100px;
+
+  &::after {
+    content: url(/image/row\ icon.png);
+  }
+}
+
+.lets-text {
+  color: white;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+
+  @media (max-width: 1440px) {
+    font-size: 28px;
+  }
+}
+
+.work-together {
+  color: white;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+
+  @media (max-width: 1440px) {
+    font-size: 28px;
+  }
+}
+
+.work-lets {
+  display: flex;
+}
+
+.sub-container {
+  display: flex;
+  justify-content: space-between;
+
+  @media (max-width: 1440px) {
+    display: block;
+  }
+}
+
+.heading {
+  margin-left: 30px;
+}
+
+.work {
+  margin-right: 30px;
+}

@@ -1,0 +1,36 @@
+.nav-list {
+  display: none;
+  justify-content: center;
+
+  @media (min-width: 1440px) {
+    display: flex;
+  }
+}
+
+.nav-item {
+  list-style-type: none;
+  color: white;
+  margin: 10px;
+}
+
+.contact-btn {
+  padding: 14px 20px;
+  border-radius: 8px;
+  display: none;
+
+  @media (min-width: 1440px) {
+    display: flex;
+  }
+}
+
+.header-navbar {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+}
+
+.burger-menu {
+  @media (min-width: 1440px) {
+    display: none;
+  }
+}

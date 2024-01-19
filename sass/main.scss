@@ -1,0 +1,10 @@
+body {
+  margin: 0 auto;
+  box-sizing: border-box;
+  background-color: #070708;
+}
+
+@import "./components/header";
+@import "./components/subcontainer";
+@import "./components/underline";
+@import "./components/images";
