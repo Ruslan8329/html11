@@ -1,0 +1,154 @@
+.about {
+  color: white;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-left: 30px;
+
+  @media (max-width: 1440px) {
+    font-size: 14px;
+  }
+}
+
+.damien {
+  color: white;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-left: 30px;
+
+  @media (max-width: 1440px) {
+    font-size: 28px;
+  }
+}
+
+.damien-button {
+  padding: 14px 28px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  border-radius: 8px;
+}
+
+.damien-section {
+  display: flex;
+  justify-content: space-between;
+
+  @media (max-width: 1440px) {
+    display: inline;
+  }
+}
+
+.damien-btn {
+  margin-top: 140px;
+
+  @media (max-width: 1440px) {
+    margin-top: 14px;
+  }
+}
+
+.damien-about {
+  margin-top: 120px;
+}
+
+.introduction {
+  color: white;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+
+  @media (max-width: 1440px) {
+    font-size: 16px;
+  }
+
+  &::before {
+    content: url(/image/damien\ star.png);
+  }
+}
+
+.damien-text {
+  color: white;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+
+  @media (max-width: 1440px) {
+    font-size: 10px;
+  }
+}
+
+.damien-contact {
+  color: white;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+
+  @media (max-width: 1440px) {
+    font-size: 16px;
+  }
+
+  &::before {
+    content: url(/image/damien\ star.png);
+  }
+}
+
+.email {
+  color: white;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+
+  @media (max-width: 1440px) {
+    font-size: 10px;
+  }
+}
+
+.phone-number {
+  color: white;
+
+  @media (max-width: 1440px) {
+    font-size: 10px;
+  }
+}
+
+.gmail-number {
+  display: flex;
+  gap: 20px;
+
+  @media (max-width: 1440px) {
+    display: inline;
+  }
+}
+
+.damien-btn {
+  padding: 14px 24px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  border-radius: 8px;
+
+  @media (max-width: 1440px) {
+    font-size: 10px;
+    padding: 10px 20px;
+    display: inline;
+  }
+}
+
+.damien-foto {
+  display: flex;
+  margin-left: 30px;
+
+  @media (max-width: 1440px) {
+    display: inline;
+  }
+}
+
+.damien-info {
+  margin-left: 80px;
+
+  @media (max-width: 1440px) {
+    display: inline;
+  }
+}

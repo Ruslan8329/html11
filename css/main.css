@@ -144,8 +144,176 @@ body {
   }
 }
 
+.about {
+  color: white;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-left: 30px;
+}
 @media (max-width: 1440px) {
-  .big-img {
-    background-image: url(/image/small\ img.png);
+  .about {
+    font-size: 14px;
+  }
+}
+
+.damien {
+  color: white;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-left: 30px;
+}
+@media (max-width: 1440px) {
+  .damien {
+    font-size: 28px;
+  }
+}
+
+.damien-button {
+  padding: 14px 28px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  border-radius: 8px;
+}
+
+.damien-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+@media (max-width: 1440px) {
+  .damien-section {
+    display: inline;
+  }
+}
+
+.damien-btn {
+  margin-top: 140px;
+}
+@media (max-width: 1440px) {
+  .damien-btn {
+    margin-top: 14px;
+  }
+}
+
+.damien-about {
+  margin-top: 120px;
+}
+
+.introduction {
+  color: white;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+}
+@media (max-width: 1440px) {
+  .introduction {
+    font-size: 16px;
+  }
+}
+.introduction::before {
+  content: url(/image/damien\ star.png);
+}
+
+.damien-text {
+  color: white;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+@media (max-width: 1440px) {
+  .damien-text {
+    font-size: 10px;
+  }
+}
+
+.damien-contact {
+  color: white;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+}
+@media (max-width: 1440px) {
+  .damien-contact {
+    font-size: 16px;
+  }
+}
+.damien-contact::before {
+  content: url(/image/damien\ star.png);
+}
+
+.email {
+  color: white;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+}
+@media (max-width: 1440px) {
+  .email {
+    font-size: 10px;
+  }
+}
+
+.phone-number {
+  color: white;
+}
+@media (max-width: 1440px) {
+  .phone-number {
+    font-size: 10px;
+  }
+}
+
+.gmail-number {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+}
+@media (max-width: 1440px) {
+  .gmail-number {
+    display: inline;
+  }
+}
+
+.damien-btn {
+  padding: 14px 24px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  border-radius: 8px;
+}
+@media (max-width: 1440px) {
+  .damien-btn {
+    font-size: 10px;
+    padding: 10px 20px;
+    display: inline;
+  }
+}
+
+.damien-foto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 30px;
+}
+@media (max-width: 1440px) {
+  .damien-foto {
+    display: inline;
+  }
+}
+
+.damien-info {
+  margin-left: 80px;
+}
+@media (max-width: 1440px) {
+  .damien-info {
+    display: inline;
   }
 }
